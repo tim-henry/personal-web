@@ -1,5 +1,5 @@
 body {
-    font-family: helvetica, arial,  sans-serif;
+    font-family: monospace, helvetica, arial,  sans-serif;
     background-color: whitesmoke;
     margin: 0;
     height: 100%;
@@ -9,16 +9,22 @@ body {
 h1 {
     font-size: 50px;
     margin: 0;
-    padding: 1em
+    padding-top: 4em;
 }
 
+h2 {
+    font-family: helvetica, arial,  sans-serif;
+}
+
+header p {
+    padding-bottom: 2em;
+}
 
 header {
-    height: 357;
+    height: 600;
     font-family: "arial";
     background-color: rgb(40, 40, 40);
     color: white;
-    padding: 5em;
     text-align: center;
     background-image: url(img/mit_darkest.jpg);
     background-size: cover;
@@ -28,12 +34,11 @@ header {
 
 
 nav ul {
-    margin: 0;
-    margin-top: 5em;
-    padding: 10px 0 0 0;
+    padding: 10px 0px 0px 0px;
     /*border-bottom: 1px solid black;*/
     list-style-type: none;
-    text-align: justify;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
     min-width: 200px;
 }
 
@@ -46,6 +51,7 @@ nav ul:after {
 nav ul li {
     padding: 14px 0px 14px 0px;
     display: inline-block;
+    margin: 10px;
 }
 
 nav ul li p {
@@ -54,8 +60,10 @@ nav ul li p {
 
 nav a {
     padding: 15px;
+    margin: 10px 10px 10px 10px;
     color: white;
     border: 1px solid white;
+    display: inline-block
 }
 
 section {
@@ -115,7 +123,8 @@ footer div {
     display: inline;
     text-align: center;
     float: left;
-    width: 40%
+    width: 40%;
+    font-family: monospace
 }
 
 img {
