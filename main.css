@@ -67,19 +67,34 @@ nav a {
 }
 
 section {
-    padding-top: 1.2em;
-    padding-bottom: 20em;
+    padding-top: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 2em;
+    height: 35em;
 }
 
 section p1 {
+
     padding-left: 1em;
+    font-size: 30px;
+    padding-bottom: 30px;
 }
 
 section h2 {
     padding-left: 1em;
+    font-size: 40px;
 }
 
-#about {}
+#about {
+    justify-content: space-around;
+    align-items: stretch; 
+    flex-direction: column;
+        display: inline-flex;
+}
+
+#text {
+}
 
 #projects {
     background-color: white
