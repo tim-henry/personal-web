@@ -14,20 +14,23 @@ h1 {
 
 
 header {
+    height: 357;
     font-family: "arial";
-    background-color: black;
+    background-color: rgb(40, 40, 40);
     color: white;
     padding: 5em;
     text-align: center;
-    background-image: url(img/bck2.jpg);
+    background-image: url(img/mit_darkest.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
 }
 
 
 nav ul {
     margin: 0;
-    padding: 0;
-    background-color: gray;
+    margin-top: 5em;
+    padding: 10px 0 0 0;
     /*border-bottom: 1px solid black;*/
     list-style-type: none;
     text-align: justify;
@@ -41,7 +44,7 @@ nav ul:after {
 }
 
 nav ul li {
-    padding: 14px;
+    padding: 14px 0px 14px 0px;
     display: inline-block;
 }
 
@@ -49,6 +52,11 @@ nav ul li p {
     color: white;
 }
 
+nav a {
+    padding: 15px;
+    color: white;
+    border: 1px solid white;
+}
 
 section {
     padding-top: 1.2em;
