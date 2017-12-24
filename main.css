@@ -237,7 +237,7 @@ section h2 {
 
 
 #experience {
-    background-color: white
+    background-color: white;
 }
 
 #textlist {
@@ -282,8 +282,9 @@ footer div {
     padding: 14px;
     margin-top: -3;
     display: inline;
+    padding-right: 60px;
     text-align: center;
-    float: left;
+    float: right;
     width: 40%;
     font-family: monospace
 }
@@ -291,7 +292,7 @@ footer div {
 footer img {
     margin-top: -13px;
     padding-right: 10px;
-    width: 35px;
+    width: 45px;
     height: 35px;
 }
 
